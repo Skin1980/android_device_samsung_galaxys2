@@ -57,6 +57,9 @@ ifeq ($(USE_CAMERA_STUB),false)
 BOARD_CAMERA_LIBRARIES := libcamera
 endif
 
+# Electronbeam animation frames count (17 * 2 = 34)
+TARGET_ELECTRONBEAM_FRAMES := 17
+
 # Bluetooth
 BOARD_HAVE_BLUETOOTH := true
 BOARD_HAVE_BLUETOOTH_BCM := true
