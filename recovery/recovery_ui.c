@@ -46,7 +46,7 @@ int device_toggle_display(volatile char* key_pressed, int key_code) {
         return 0;
         //return get_allow_toggle_display() && (key_code == KEY_HOME || key_code == KEY_MENU || key_code == KEY_END);
     }
-    return get_allow_toggle_display() && (key_code == KEY_MENU || key_code == KEY_BACK);
+    return get_allow_toggle_display() && (key_code == KEY_MENU);
 }
 
 int device_reboot_now(volatile char* key_pressed, int key_code) {
